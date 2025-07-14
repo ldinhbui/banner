@@ -1,0 +1,23 @@
+{
+    "name": "ldinhbui/banner",
+    "type": "typo3-cms-extension",
+    "description": "A TYPO3 extension adding flash notification-like banners in pages",
+    "homepage": "",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "version": "1",
+    "require": {
+        "typo3/cms-core": "^13",
+        "typo3/cms-rte-ckeditor": "^13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ldinhbui\\Banner\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "banner"
+        }
+    }
+}
