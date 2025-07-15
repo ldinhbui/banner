@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2024-01-01T00:00:00Z" product-name="banner">
+        <header/>
+        <body>
+            <trans-unit id="wizard.banner.title">
+                <source>Banner</source>
+            </trans-unit>
+            <trans-unit id="tt_content.link">
+                <source>Link</source>
+            </trans-unit>
+            <trans-unit id="tt_content.link_text">
+                <source>Link Text</source>
+            </trans-unit>
+            <trans-unit id="tt_content.banner_type">
+                <source>Banner Type</source>
+            </trans-unit>
+            <trans-unit id="tt_content.banner_type.info">
+                <source>Info</source>
+            </trans-unit>
+            <trans-unit id="tt_content.banner_type.warning">
+                <source>Warning</source>
+            </trans-unit>
+            <trans-unit id="tt_content.banner_type.error">
+                <source>Error</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
