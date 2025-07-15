@@ -25,20 +25,21 @@ $GLOBALS['TCA']['tt_content']['types'][$key] = [
             --palette--;;general,
             --palette--;;banner,
             --palette--;;link,
+        --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
+            --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
+            --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.appearanceLinks;appearanceLinks,
         --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:language,
             --palette--;;language,
         --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:access,
             --palette--;;hidden,
-            --palette--;;access,
+            --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.access;access,
         ',
 
     'columnsOverrides' => [
 
         'bodytext' => [
             'config' => [
-                'size' => 100,
                 'enableRichtext' => true,
-                
             ],
         ],
     ],
