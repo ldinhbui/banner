@@ -5,7 +5,8 @@
     "homepage": "",
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS"],
-    "version": "1",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
     "require": {
         "typo3/cms-core": "^13.0",
         "typo3/cms-rte-ckeditor": "^13.0",
