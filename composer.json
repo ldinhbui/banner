@@ -7,8 +7,9 @@
     "keywords": ["TYPO3 CMS"],
     "version": "1",
     "require": {
-        "typo3/cms-core": "^13",
-        "typo3/cms-rte-ckeditor": "^13"
+        "typo3/cms-core": "^13.0",
+        "typo3/cms-rte-ckeditor": "^13.0",
+        "bk2k/bootstrap-package": "^15.0"
     },
     "autoload": {
         "psr-4": {

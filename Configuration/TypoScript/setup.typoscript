@@ -1,3 +1,4 @@
+@import 'EXT:bootstrap_package/Configuration/TypoScript/Bootstrap5/setup.typoscript'
 @import 'EXT:banner/Configuration/TypoScript/ContentElement/Element/Banner.typoscript'
 @import 'EXT:banner/Configuration/TypoScript/ContentElement/Helper/ContentElement.typoscript'
 @import 'EXT:banner/Configuration/TypoScript/General/page.typoscript'
