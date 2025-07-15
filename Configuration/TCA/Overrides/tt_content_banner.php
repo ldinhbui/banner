@@ -14,7 +14,7 @@ ExtensionManagementUtility::addTcaSelectItem(
         'label' => 'LLL:EXT:banner/Resources/Private/Language/locallang_be.xlf:wizard.banner.title',
         'value' => $key,
         'group' => 'default',
-        'icon' => 'EXT:banner/Resources/Public/Icons/Extension.svg',
+        'icon' => 'tx-banner-svgicon',
     ],
 );
 
