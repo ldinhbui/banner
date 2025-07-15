@@ -1,0 +1,11 @@
+lib.contentElement {
+    templateRootPaths {
+        5 = EXT:banner/Resources/Private/Templates/ContentElements/
+    }
+    partialRootPaths {
+        5 = EXT:banner/Resources/Private/Partials/ContentElements/
+    }
+    layoutRootPaths {
+        5 = EXT:banner/Resources/Private/Layouts/ContentElements/
+    }
+}

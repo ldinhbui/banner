@@ -1,0 +1,2 @@
+@import 'EXT:banner/Configuration/TypoScript/ContentElement/Element/Banner.typoscript'
+@import 'EXT:banner/Configuration/TypoScript/ContentElement/Helper/ContentElement.typoscript'

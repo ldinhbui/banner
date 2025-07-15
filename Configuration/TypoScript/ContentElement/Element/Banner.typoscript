@@ -1,0 +1,7 @@
+#CType Banner
+tt_content {
+  banner =< lib.contentElement
+  banner {
+    templateName = Banner
+  }
+}
