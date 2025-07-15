@@ -1,0 +1,23 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="Main">
+    <f:if condition="{data.bodytext}">
+        <div class="alert alert-{data.tx_banner_banner_type} border-3" role="alert">
+            <div class="banner-content">
+                {data.bodytext -> f:format.html()}
+            </div>
+            <f:if condition="{data.tx_banner_link}">
+                <f:if condition="{data.tx_banner_link_text}">
+                    <f:then>
+                        <f:link.typolink parameter="{data.tx_banner_link}"  class="alert-link">{data.tx_banner_link_text}</f:link.typolink>
+                    </f:then>
+                    <f:else>
+                        <f:link.typolink parameter="{data.tx_banner_link}"  class="alert-link"></f:link.typolink>
+                    </f:else>
+                </f:if>
+            </f:if>
+        </div>
+    </f:if>
+</f:section>
+
+</html>

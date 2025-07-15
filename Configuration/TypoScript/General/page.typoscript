@@ -1,0 +1,5 @@
+page {
+    includeCSS {
+        banner = EXT:banner/Resources/Public/Styles/main.css
+    }
+}

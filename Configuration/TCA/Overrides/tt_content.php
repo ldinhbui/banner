@@ -41,7 +41,7 @@ defined('TYPO3') || die();
                 ],
                 [
                     'LLL:EXT:banner/Resources/Private/Language/locallang_be.xlf:tt_content.banner_type.error',
-                    'error',
+                    'danger',
                 ],
             ],
         ],
